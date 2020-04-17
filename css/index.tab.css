@@ -1,0 +1,70 @@
+
+header,
+footer {
+    height: 500px;
+    background: black;
+    color: aliceblue
+}
+
+.lc {
+    height: 1000px;
+}
+
+.a {
+    background: red;
+}
+
+.b {
+    background: green;
+}
+
+.c {
+    background: blue;
+}
+
+.d {
+    background: aquamarine;
+}
+
+.e {
+    background: blueviolet;
+}
+
+.f {
+    background: chocolate;
+}
+
+.tip {
+    width: 100px;
+    /* height: 400px; */
+    position: fixed;
+    left: 5px;
+    bottom: 100px;
+    background: greenyellow;
+    display: none;
+}
+
+.tip>ul {
+    width: 100px;
+    height: 50px;
+}
+
+.tip>ol {
+    width: 100px;
+    height: 300px;
+
+}
+
+.tip li {
+    width: 100px;
+    height: 49px;
+    text-align: center;
+    line-height: 50px;
+    border-bottom: 1px solid gray;
+    cursor: pointer;
+}
+
+.tip li:hover {
+    background: darkcyan;
+    color: white;
+}
