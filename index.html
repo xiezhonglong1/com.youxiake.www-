@@ -6,21 +6,427 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./lib/reset.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/index.css">
     <link rel="stylesheet" href="./css/index.tab.css">
+
 </head>
 
 <body>
     <header>
-        <h3 style="text-align: center;line-height: 50px">向下滚动页面查看效果</h3>
+        <!-- //顶部栏 -->
+        <div class="topnav">
+            <div class="content">
+                <div class="topnav_left">
+                    <ul>
+                        <li><a href="">登录</a></li>
+                        <li><a href="">注册</a></li>
+                        <li><a href=""><img src="./images/download.gif" alt=""></a></li>
+                    </ul>
+                </div>
+                <div class="topnav_right">
+                    <ul>
+                        <li><a href="">我的订单</a></li>
+                        <li><a href="">帮助中心</a></li>
+                        <li>
+                            <a href="">我的游侠客</a>
+                            <ol>
+                                <li>我的游侠客</li>
+                                <li>订单中心</li>
+                                <li>我的社区</li>
+                                <li>我的等级</li>
+                                <li>账户管理</li>
+                            </ol>
+                        </li>
+                        <li><a href="">手机APP</a><img src="./images/weixin_code.png" alt=""></li>
+                        <li><a href=""></a><img src="./images/xcx_code_1.png" alt=""></li>
+                        <li><a href=""></a></li>
+                        <li><a href=""></a><img src="./images/weibo_code.png" alt=""></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- //头部搜索区 -->
+        <div class="topseach">
+            <div class="content">
+                <div class="topseach_left"><img src="./images/yxk_logo.png" alt=""></div>
+                <div class="topseach_right">
+                    <div id="topseach_right_pj">
+                        <a href="javascript:;">北京站</a>
+                        <ul>
+                            <li>杭州站</li>
+                            <li>上海站</li>
+                            <li>广州站</li>
+                            <li>成都站</li>
+                            <li>北京站</li>
+                            <li>武汉站</li>
+                            <li>苏州站</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <div href="javascript:;" id="topseach_right_zh">
+                            <a href="javascript:;">综合</a>
+                            <ul>
+                                <li>综合</li>
+                                <li>线路</li>
+                                <li>签证</li>
+                                <li>游戏</li>
+                                <li>攻略</li>
+                                <li>视频</li>
+                                <li>摄影</li>
+                            </ul>
+                        </div>
+                        <input type="text" name="" id="topseach_right_input">
+                        <div class="topseach_right_focus">
+                            <span>
+                                <b>热门搜索</b>
+                                <p>
+                                    <a href="">到时是</a>
+                                    <a href="">多少是</a>
+                                    <a href="">速度的</a>
+                                    <a href="">的v山地车</a>
+                                    <a href="">是的是的v</a>
+                                    <a href="">DVD v</a>
+                                </p>
+                            </span>
+                            <span>
+                                <b>国内</b>
+                                <p>
+                                    <a href="">到时是</a>
+                                    <a href="">多少是</a>
+                                    <a href="">速度的</a>
+                                    <a href="">的v山地车</a>
+                                    <a href="">是的是的v</a>
+                                    <a href="">DVD v</a>
+                                </p>
+                            </span>
+                            <span>
+                                <b>处境</b>
+                                <p>
+                                    <a href="">到时是</a>
+                                    <a href="">多少是</a>
+                                    <a href="">速度的</a>
+                                    <a href="">的v山地车</a>
+                                    <a href="">是的是的v</a>
+                                    <a href="">DVD v</a>
+                                </p>
+                            </span>
+                        </div>
+                        <button><a href="javascript:;">搜索</a></button>
+                    </div>
+                    <div>
+                        <p>服务热搜 9:00~21:00</p>
+                        <i>4006 70 6300</i>
+                        <img src="./images/yxkcode.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- //头部导航栏 -->
+        <div class="topnavlist">
+            <div class="content">
+                <div class="topnavlist_nav">
+                    <nav id="nav">
+                        <ul class="nav">
+                            <li class="nav-item">
+                                <a href="#">首页</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#">周边游<i></i></a>
+                                <div class="subMenu">
+                                    <ul class="wrap">
+                                        <li><a href="#">案例分类1</a></li>
+                                        <li><a href="#">案例分类2</a></li>
+                                        <li><a href="#">案例分类3</a></li>
+                                        <li><a href="#">案例分类4</a></li>
+                                        <li><a href="#">案例分类5</a></li>
+                                        <li><a href="#">案例分类6</a></li>
+                                        <li><a href="#">案例分类7</a></li>
+                                        <li><a href="#">案例分类8</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#">当地玩乐<i></i></a>
+                                <div class="subMenu">
+                                    <ul class="wrap">
+                                        <li><a href="#">产品分类1</a></li>
+                                        <li><a href="#">产品分类2</a></li>
+                                        <li><a href="#">产品分类3</a></li>
+                                        <li><a href="#">产品分类4</a></li>
+                                        <li><a href="#">产品分类5</a></li>
+                                        <li><a href="#">产品分类6</a></li>
+                                        <li><a href="#">产品分类7</a></li>
+                                        <li><a href="#">产品分类8</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#">自由行</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#">国内游<i></i></a>
+                                <div class="subMenu">
+                                    <ul class="wrap">
+                                        <li><a href="#">案例分类1</a></li>
+                                        <li><a href="#">案例分类2</a></li>
+                                        <li><a href="#">案例分类3</a></li>
+                                        <li><a href="#">案例分类4</a></li>
+                                        <li><a href="#">案例分类5</a></li>
+                                        <li><a href="#">案例分类6</a></li>
+                                        <li><a href="#">案例分类7</a></li>
+                                        <li><a href="#">案例分类8</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#">出境游<i></i></a>
+                                <div class="subMenu">
+                                    <ul class="wrap">
+                                        <li><a href="#">案例分类1</a></li>
+                                        <li><a href="#">案例分类2</a></li>
+                                        <li><a href="#">案例分类3</a></li>
+                                        <li><a href="#">案例分类4</a></li>
+                                        <li><a href="#">案例分类5</a></li>
+                                        <li><a href="#">案例分类6</a></li>
+                                        <li><a href="#">案例分类7</a></li>
+                                        <li><a href="#">案例分类8</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#">摄影游<i></i></a>
+                                <div class="subMenu">
+                                    <ul class="wrap">
+                                        <li><a href="#">案例分类1</a></li>
+                                        <li><a href="#">案例分类2</a></li>
+                                        <li><a href="#">案例分类3</a></li>
+                                        <li><a href="#">案例分类4</a></li>
+                                        <li><a href="#">案例分类5</a></li>
+                                        <li><a href="#">案例分类6</a></li>
+                                        <li><a href="#">案例分类7</a></li>
+                                        <li><a href="#">案例分类8</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#">户外游</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#">亲子游</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#">活动赛事<i></i></a>
+                                <div class="subMenu">
+                                    <ul class="wrap">
+                                        <li><a href="#">案例分类1</a></li>
+                                        <li><a href="#">案例分类2</a></li>
+                                        <li><a href="#">案例分类3</a></li>
+                                        <li><a href="#">案例分类4</a></li>
+                                        <li><a href="#">案例分类5</a></li>
+                                        <li><a href="#">案例分类6</a></li>
+                                        <li><a href="#">案例分类7</a></li>
+                                        <li><a href="#">案例分类8</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#">主题游<i></i></a>
+                                <div class="subMenu">
+                                    <ul class="wrap">
+                                        <li><a href="#">案例分类1</a></li>
+                                        <li><a href="#">案例分类2</a></li>
+                                        <li><a href="#">案例分类3</a></li>
+                                        <li><a href="#">案例分类4</a></li>
+                                        <li><a href="#">案例分类5</a></li>
+                                        <li><a href="#">案例分类6</a></li>
+                                        <li><a href="#">案例分类7</a></li>
+                                        <li><a href="#">案例分类8</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#">定制游</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#">社区<i></i></a>
+                                <div class="subMenu">
+                                    <ul class="wrap">
+                                        <li><a href="#">案例分类1</a></li>
+                                        <li><a href="#">案例分类2</a></li>
+                                        <li><a href="#">案例分类3</a></li>
+                                        <li><a href="#">案例分类4</a></li>
+                                        <li><a href="#">案例分类5</a></li>
+                                        <li><a href="#">案例分类6</a></li>
+                                        <li><a href="#">案例分类7</a></li>
+                                        <li><a href="#">案例分类8</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#">游侠集市</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    </dvi>
+                </div>
+            </div>
+        </div>
+        <!-- //头部轮播图 -->
+        <div class="topnover">
+            <div class="trent-slider">
+                <div class="t-slide current-t-slide">
+                    <img src="./images/waresimg/topnoverimga.jpg" alt="" />
+                </div>
+                <div class="t-slide">
+                    <img src="./images/waresimg/topnoverimgb.jpg" alt="" />
+                </div>
+                <div class="t-slide">
+                    <img src="./images/waresimg/topnoverimgc.jpg" alt="" />
+                </div>
+                <div class="t-slide">
+                    <img src="./images/waresimg/topnoverimgd.jpg" alt="" />
+                </div>
+                <div class="t-slide">
+                    <img src="./images/waresimg/topnoverimge.jpg" alt="" />
+                </div>
+                <div class="t-slide">
+                    <img src="./images/waresimg/topnoverimgf.jpg" alt="" />
+                </div>
+                <div class="t-slide">
+                    <img src="./images/waresimg/topnoverimgg.jpg" alt="" />
+                </div>
+                <div class="t-slide">
+                    <img src="./images/waresimg/topnoverimgl.jpg" alt="" />
+                </div>
+                <div class="t-slide">
+                    <img src="./images/waresimg/topnoverimgs.jpg" alt="" />
+                </div>
+                <div class="t-slider-controls">
+                    <div class="arrow right-arrow">
+                        <i class="fa fa-chevron-right" aria-hidden="true">
+                            <img src="./images/noverimgleft.png" alt="">
+                        </i>
+                    </div>
+                    <div class="arrow left-arrow">
+                        <i class="fa fa-chevron-left" aria-hidden="true">
+                            <img src="./images/noverimgright.png" alt="">
+                        </i>
+                    </div>
+                    <div class="t-load-bar">
+                        <div class="inner-load-bar"></div>
+                    </div>
+                    <div class="t-dots-container">
+                        <div class="t-slide-dots-wrap">
+                            <div class="t-slide-dots">
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- //头部小轮播图 -->
+        <div class="topfootertext">
+            <div class="content">
+                <div class="topfootertext_left">
+                    报名动态
+                </div>
+                <div class="topfootertext_right">
+                    今天15:55
+                    <a href="#" target="_blank">地方v你觉得</a>
+                    报名了
+                    <span>【茶园驾云线】5.2，徒步驾云山，探秘壮观老虎潭水库，游走湖州最美山水圣地；登玻璃观景台，过千亩茶园，乐享户外火锅</span>
+                    612人已报名
+                    <a href="#" target="_blank">我也要报名 ></a>
+                </div>
+            </div>
+        </div>
     </header>
-    <div class="lc a">1</div>
-    <div class="lc b">2</div>
-    <div class="lc c">3</div>
-    <div class="lc d">4</div>
-    <div class="lc e">5</div>
-    <div class="lc f">6</div>
+    <!-- //主体 -->
+    <div class="content">
+        <!-- //游侠客攻略 -->
+        <div class="a yxkgl">
+            <div class="yxkgl_ltft">
+                <div class="yxkgl_ltftname">
+                    游侠客攻略
+                </div>
+                <div class="yxkgl_ltftover">
+                    <ul>
+                        <li><a href=""><img src="./images/waresimg/yxkgl_leftnover1.jpg" alt=""></a></li>
+                        <li><a href=""><img src="./images/waresimg/yxkgl_leftnover2.jpg" alt=""></a></li>
+                        <li><a href=""><img src="./images/waresimg/yxkgl_leftnover3.jpg" alt=""></a></li>
+                        <li><a href=""><img src="./images/waresimg/yxkgl_leftnover4.jpg" alt=""></a></li>
+                    </ul>
+                    <div class="arrow">
+                        <span class="arrow-left"><img src="./images/yxkglnoveleft.png" alt=""></span>
+                        <span class="arrow-right"><img src="./images/yxkglnoverright.png" alt=""></span>
+                    </div>
+                    <ol>
+
+                    </ol>
+                </div>
+            </div>
+            <div class="yxkgl_right">
+                <div class="yxkgl_rightnav">
+                    <span>游侠风采</span>
+                    <i>更多》</i>
+                    <ul>
+                        <li>侠魁</li>
+                        <li>游飞侠</li>
+                        <li>亲子导师</li>
+                        <li>摄影高手</li>
+                        <li>户外高手</li>
+                        <li>游侠女郎</li>
+                    </ul>
+                </div>
+                <div class="yxkgl_rightninerbox">
+                    <ul>
+                        <li>
+                            <a href=""><img src="./images/waresimg/yxkgl_right1.jpg" alt=""></a>
+                            <a href=""><img src="./images/waresimg/yxkgl_right2.jpg" alt=""></a>
+                            <a href=""><img src="./images/waresimg/yxkgl_right3.jpg" alt=""></a>
+                            <a href=""><img src="./images/waresimg/yxkgl_right4.jpg" alt=""></a>
+                            <a href=""><img src="./images/waresimg/yxkgl_right5.jpg" alt=""></a>
+                            <a href=""><img src="./images/waresimg/yxkgl_right6.jpg" alt=""></a>
+                        </li>
+                        <li>
+                            <a href=""><img src="./images/waresimg/yxkgl_right7.jpg" alt=""></a>
+                            <a href=""><img src="./images/waresimg/yxkgl_right3.jpg" alt=""></a>
+                            <a href=""><img src="./images/waresimg/yxkgl_right6.jpg" alt=""></a>
+                            <a href=""><img src="./images/waresimg/yxkgl_right3.jpg" alt=""></a>
+                            <a href=""><img src="./images/waresimg/yxkgl_right7.jpg" alt=""></a>
+                            <a href=""><img src="./images/waresimg/yxkgl_right8.jpg" alt=""></a>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <a href=""><img src="./images/waresimg/yxkgl_right8.jpg" alt=""></a>
+                            <a href=""><img src="./images/waresimg/yxkgl_right4.jpg" alt=""></a>
+                            <a href=""><img src="./images/waresimg/yxkgl_right2.jpg" alt=""></a>
+                            <a href=""><img src="./images/waresimg/yxkgl_right1.jpg" alt=""></a>
+                            <a href=""><img src="./images/waresimg/yxkgl_right5.jpg" alt=""></a>
+                            <a href=""><img src="./images/waresimg/yxkgl_right6.jpg" alt=""></a>
+                        </li>
+                        <li>
+                            <a href=""><img src="./images/waresimg/yxkgl_right7.jpg" alt=""></a>
+                            <a href=""><img src="./images/waresimg/yxkgl_right5.jpg" alt=""></a>
+                            <a href=""><img src="./images/waresimg/yxkgl_right6.jpg" alt=""></a>
+                            <a href=""><img src="./images/waresimg/yxkgl_right3.jpg" alt=""></a>
+                            <a href=""><img src="./images/waresimg/yxkgl_right7.jpg" alt=""></a>
+                            <a href=""><img src="./images/waresimg/yxkgl_right8.jpg" alt=""></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="lc b">2</div>
+        <div class="lc d">4</div>
+        <div class="lc e">5</div>
+        <div class="lc f">6</div>
+    </div>
     <footer>footer</footer>
-    <div class="tip">
+    <!-- <div class="tip">
         <ol>
             <li>1</li>
             <li>2</li>
@@ -32,9 +438,12 @@
         <ul>
             <li>Top</li>
         </ul>
-    </div>
+    </div> -->
     <script src="./js/jquery-3.4.1.min.js"></script>
+    <script src="./js/main.js"></script>
     <script src="./js/index.tab.js"></script>
+    <script src="./js/index.js">
+    </script>
 </body>
 
 </html>

@@ -1,9 +1,13 @@
-
+body,html{
+    margin: 0;
+    padding: 0;
+}
 header,
 footer {
-    height: 500px;
-    background: black;
-    color: aliceblue
+    /* height: 500px; */
+    border: 1px solid red;
+    /* background: black;
+    color: aliceblue */
 }
 
 .lc {
@@ -11,7 +15,7 @@ footer {
 }
 
 .a {
-    background: red;
+    background: #f9f9f9;
 }
 
 .b {
@@ -68,3 +72,5 @@ footer {
     background: darkcyan;
     color: white;
 }
+
+
