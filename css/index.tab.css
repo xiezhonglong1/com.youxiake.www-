@@ -1,6 +1,7 @@
 body,html{
     margin: 0;
     padding: 0;
+    background-color: #f9f9f9;
 }
 header,
 footer {
@@ -72,5 +73,6 @@ footer {
     background: darkcyan;
     color: white;
 }
+
 
 
