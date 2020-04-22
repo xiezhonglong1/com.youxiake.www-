@@ -1,3 +1,9 @@
+body,html{
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
 .topnav{
     width: 100%;
     height: 38px;
@@ -448,6 +454,7 @@
 //主体
 //yxkgl
 .yxkgl{
+    height: 516px;
     width: 100%;
     padding-top: 20px;
     overflow: hidden;
@@ -608,7 +615,8 @@
 }
 
 //thlx
-.thlx{
+.thlx{        
+    height: 440px;
     padding-top: 20px;
     width: 100%;
     overflow: hidden;
@@ -731,6 +739,7 @@
 
 //zbdty
 .zbdty{
+    height: 1157px;
     width: 100%;
     padding-top: 20px;
     overflow: hidden;
@@ -1309,7 +1318,7 @@
 //glzxy
 .glzxy{
     width: 100%;
-    // padding-top: 20px;
+    height:960px;
     overflow: hidden;
     .glzxyLeft{
         width: 20%;
@@ -1871,6 +1880,7 @@
 
 //cjkgy
 .cjkgy{
+    height: 1127px;
     width: 100%;
     padding-top: 20px;
     overflow: hidden;
@@ -2447,6 +2457,7 @@
 
 //dczty
 .dczty{
+    height: 605px;
     width: 100%;
     padding-top: 20px;
     overflow: hidden;
@@ -2843,7 +2854,8 @@
 }
 
 //ddwl
-.ddwl{
+.ddwl{    
+    height: 605;
     width: 100%;
     padding-top: 20px;
     overflow: hidden;
@@ -3241,6 +3253,7 @@
 
 //hdyj
 .hdyj{
+    height: 569px;
     width: 100%;
     padding-top: 20px;
     .hdyjtopnav{
@@ -3366,6 +3379,7 @@
 
 //jpsyzp
 .jpsyzp{
+    height: 561px;
     width: 100%;
     padding-top: 20px;
     overflow: hidden;
@@ -3578,6 +3592,7 @@
 
 //yxksp
 .yxksp{
+    height: 360px;
     width: 100%;
     padding-top: 20px;
     overflow: hidden;
@@ -3890,5 +3905,51 @@ footer{
     }
 }
  
+//tip
+
+.tip {
+    padding: 0 10px;
+    box-sizing: border-box;
+    width: 100px;
+    position: fixed;
+    left: 100px;
+    bottom: 33%;
+    background: #ffffff;
+    display: none;
+    ul {
+        width: 100%;
+        li {
+            width: 100%;
+            height: 35px;
+            line-height: 35px;
+            text-align: center;
+            font-size: 16px;
+            color: #888585;
+            border-bottom: 1px dashed #dbd6d6;
+            cursor: pointer;
+        }
+    }
+    ol {
+        width: 100%;   
+        li {
+            width: 100%;
+            height: 35px;
+            line-height: 35px;
+            text-align: center;
+            font-size: 16px;
+            color: #888585;
+            border-bottom: 1px dashed #dbd6d6;
+            cursor: pointer;
+        } 
+    }
+    .current {
+        color: #fab804;
+    }
+}
+
+
+
+
+
 
 

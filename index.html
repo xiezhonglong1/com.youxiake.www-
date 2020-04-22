@@ -8,7 +8,6 @@
     <link rel="stylesheet" href="./lib/reset.css">
     <link rel="stylesheet" href="./css/main.css">
     <link rel="stylesheet" href="./css/index.css">
-    <link rel="stylesheet" href="./css/index.tab.css">
 
 </head>
 
@@ -344,9 +343,9 @@
         </div>
     </header>
     <!-- //主体 -->
-    <div class="content">
+    <div class="content mains">
         <!-- //游侠客攻略 -->
-        <div class="yxkgl">
+        <div class="lc yxkgl">
             <div class="yxkgl_ltft">
                 <div class="yxkgl_ltftname">
                     游侠客攻略
@@ -421,7 +420,7 @@
             </div>
         </div>
         <!-- //特惠线路 -->
-        <div class="thlx">
+        <div class="lc thlx">
             <div class="thlx_topnva">
                 <ul>
                     <li>特惠线路</li>
@@ -477,7 +476,7 @@
             </div>
         </div>
         <!-- //周边短途游 -->
-        <div class="zbdty">
+        <div class="lc zbdty">
             <div class="zbdtyLeft">
                 <div class="zbdtyLeft_top">周边短途游</div>
                 <div class="zbdtyLeft_list">
@@ -663,7 +662,7 @@
             </div>
         </div>
         <!-- //国内长线游 -->
-        <div class="glzxy">
+        <div class="lc glzxy">
             <div class="glzxyLeft">
                 <div class="glzxyLeft_top">国内长线游</div>
                 <div class="glzxyLeft_list">
@@ -850,7 +849,7 @@
             </div>
         </div>
         <!-- //出境跨国游 -->
-        <div class="cjkgy">
+        <div class="lc cjkgy">
             <div class="cjkgyLeft">
                 <div class="cjkgyLeft_top">出境跨国游</div>
                 <div class="cjkgyLeft_list">
@@ -1040,7 +1039,7 @@
             </div>
         </div>
         <!-- //多彩主题游 -->
-        <div class="dczty">
+        <div class="lc dczty">
             <div class="dcztyLeft">
                 <div class="dcztyLeft_top">多彩主题游</div>
                 <div class="dcztyLeft_list">
@@ -1206,9 +1205,9 @@
             </div>
         </div>
         <!-- //当地玩乐 -->
-        <div class="ddwl">
+        <div class="lc ddwl">
             <div class="ddwlLeft">
-                <div class="ddwlLeft_top">多彩主题游</div>
+                <div class="ddwlLeft_top">当地玩乐</div>
                 <div class="ddwlLeft_list">
                     <span>
                         <h4>热门目的地</h4>
@@ -1323,7 +1322,7 @@
             </div>
         </div>
         <!-- //活动游记 -->
-        <div class="hdyj">
+        <div class="lc hdyj">
             <div class="hdyjtopnav">
                 <span>活动游记</span>
                 <i>更多></i>
@@ -1510,9 +1509,9 @@
             </div>
         </div>
         <!-- //精彩摄影作品 -->
-        <div class="jpsyzp">
+        <div class="lc jpsyzp">
             <div class="jpsyzptopnav">
-                <span>活动游记</span>
+                <span>精彩摄影作品</span>
                 <i>更多></i>
                 <ul>
                     <li class="ulhover">精华</li>
@@ -1574,7 +1573,7 @@
             </div>
         </div>
         <!-- //游侠客视频 -->
-        <div class="yxksp">
+        <div class="lc yxksp">
             <div class="yxksptopnav">
                 <span>游侠客视频</span>
                 <i>更多></i>
@@ -1652,7 +1651,6 @@
         </div>
     </div>
     <footer>
-
         <div class="footer_toplist">
             <div class="content">
                 <ul>
@@ -1787,30 +1785,27 @@
             </div>
         </div>
     </footer>
-    <!-- <div class="tip">
+    <!-- //左侧楼梯导航 -->
+    <div class="tip">
         <ol>
-            <li>1</li>
-            <li>2</li>
-            <li>3</li>
-            <li>4</li>
-            <li>5</li>
-            <li>6</li>
+            <li>游侠客攻略</li>
+            <li>特惠线路</li>
+            <li>周边短途游</li>
+            <li>国内长线游</li>
+            <li>出境跨国游</li>
+            <li>多彩主题游</li>
+            <li>当地玩乐</li>
+            <li>活动游记</li>
+            <li>摄影作品</li>
+            <li>游侠客视频</li>
         </ol>
-        <ul>
-            <li>Top</li>
+        <ul class="back">
+            <li>返回顶部</li>
         </ul>
-    </div> -->
+    </div>
     <script src="./js/jquery-3.4.1.min.js"></script>
     <script src="./js/main.js"></script>
-    <script src="./js/index.tab.js"></script>
     <script src="./js/index.js">
-        $('.hdyjtopnav ul li').on('click', function () {
-            $('.hdyjtopnav ul li').removeClass('ulhover')
-            $(this).addClass('ulhover')
-            let index = $(this).index()
-            $('.hdyjlist').children().hide()
-            $('.hdyjlist').children().eq(index).show()
-        })
     </script>
 </body>
 

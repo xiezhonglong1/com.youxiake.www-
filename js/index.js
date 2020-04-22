@@ -354,3 +354,34 @@ $('.yxksptopnav ul li').on('click', function () {
     $('.yxksplist').children().hide()
     $('.yxksplist').children().eq(index).show()
 })
+
+
+//楼梯导航
+let loucengTop = $('.mains').offset().top
+$(document).scroll(function () {
+    if ($(document).scrollTop() >= loucengTop) {
+        $('.tip').show()
+    }
+    else {
+        $('.tip').hide()
+    }
+    var dmtop = $(document).scrollTop()
+    $('.mains .lc').each(function (k, v) {
+        let ListTops = $('.mains .lc').eq(k).offset().top
+        if (dmtop >= ListTops) {
+            console.log(11);
+            $('.tip>ol').children().removeClass('current')
+            $('.tip>ol li').eq(k).addClass('current')
+        }
+    })
+})
+$('.tip>ol li').on('click', function () {
+    $('.tip>ol').children().removeClass('current')
+    $(this).addClass('current')
+    let Index = $(this).index()
+    let ListTop = $('.mains .lc').eq(Index).offset().top
+    $(document).scrollTop(ListTop)
+})
+$('.back').click(function () {
+    $(document).scrollTop(0)
+})
