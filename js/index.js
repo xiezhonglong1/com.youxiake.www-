@@ -336,3 +336,21 @@ $(function () {
         // $('.zbdtyRight_toplistright ol li').eq(index).addClass('current').siblings().removeClass('current')
     }, 5000)
 })
+
+//活动游记
+$('.hdyjtopnav ul li').on('click', function () {
+    $('.hdyjtopnav ul li').removeClass('ulhover')
+    $(this).addClass('ulhover')
+    let index = $(this).index()
+    $('.hdyjlist').children().hide()
+    $('.hdyjlist').children().eq(index).show()
+})
+
+//游侠客视频
+$('.yxksptopnav ul li').on('click', function () {
+    $('.yxksptopnav ul li').removeClass('ulhover')
+    $(this).addClass('ulhover')
+    let index = $(this).index()
+    $('.yxksplist').children().hide()
+    $('.yxksplist').children().eq(index).show()
+})
