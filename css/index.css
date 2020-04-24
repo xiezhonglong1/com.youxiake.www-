@@ -981,10 +981,6 @@ body, html {
   margin-right: 25%;
 }
 
-.zbdty .zbdtyLeft .zbdtyLeft_btimg {
-  width: 100%;
-}
-
 .zbdty .zbdtyRight {
   width: 78%;
   float: right;
@@ -5042,5 +5038,11 @@ footer .footer_boton .footer_botonlst3 span:nth-child(2) a:nth-child(9) i {
   top: 46%;
   left: 40%;
   text-align: center;
+}
+
+.left_loge {
+  position: fixed;
+  bottom: 0;
+  left: 0;
 }
 /*# sourceMappingURL=index.css.map */

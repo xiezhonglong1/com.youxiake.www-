@@ -408,7 +408,6 @@ body,html{
     }
 }
 
-
 //topnover
 .topnover{
     width: 100%;
@@ -806,12 +805,12 @@ body,html{
                 }
             }
         }
-        .zbdtyLeft_btimg{
-            width: 100%;
-            img{
+        // .zbdtyLeft_btimg{
+        //     width: 100%;
+        //     img{
 
-            }
-        }
+        //     }
+        // }
     }
     .zbdtyRight{
         width: 78%;
@@ -4207,7 +4206,9 @@ footer{
     }
 }
 
-
-
-
-
+//left_loge
+.left_loge{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
