@@ -1,0 +1,937 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>国内行</title>
+    <link rel="stylesheet" href="./lib/reset.css">
+    <link rel="stylesheet" href="./css/swiper.min.css">
+    <link rel="stylesheet" href="./css/laydate.css">
+    <link rel="stylesheet" href="./css/glx.css">
+</head>
+
+<body>
+    <header>
+        <!-- //顶部栏 -->
+        <div class="topnav content">
+            <div class="content">
+                <div class="topnav_left">
+                    <ul>
+                        <li><a href="">登录</a></li>
+                        <li><a href="">注册</a></li>
+                        <li><a href=""><img src="./images/download.gif" alt=""></a></li>
+                    </ul>
+                </div>
+                <div class="topnav_right">
+                    <ul>
+                        <li><a href="">我的订单</a></li>
+                        <li><a href="">帮助中心</a></li>
+                        <li>
+                            <a href="">我的游侠客</a>
+                            <ol>
+                                <li>我的游侠客</li>
+                                <li>订单中心</li>
+                                <li>我的社区</li>
+                                <li>我的等级</li>
+                                <li>账户管理</li>
+                            </ol>
+                        </li>
+                        <li><a href="">手机APP</a><img src="./images/weixin_code.png" alt=""></li>
+                        <li><a href=""></a><img src="./images/xcx_code_1.png" alt=""></li>
+                        <li><a href=""></a></li>
+                        <li><a href=""></a><img src="./images/weibo_code.png" alt=""></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- //头部搜索区 -->
+        <div class="topseach content">
+            <div class="content">
+                <div class="topseach_left"><img src="./images/yxk_logo.png" alt=""></div>
+                <div class="topseach_right">
+                    <div id="topseach_right_pj">
+                        <a href="javascript:;">北京站</a>
+                        <ul>
+                            <li>杭州站</li>
+                            <li>上海站</li>
+                            <li>广州站</li>
+                            <li>成都站</li>
+                            <li>北京站</li>
+                            <li>武汉站</li>
+                            <li>苏州站</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <div href="javascript:;" id="topseach_right_zh">
+                            <a href="javascript:;">综合</a>
+                            <ul>
+                                <li>综合</li>
+                                <li>线路</li>
+                                <li>签证</li>
+                                <li>游戏</li>
+                                <li>攻略</li>
+                                <li>视频</li>
+                                <li>摄影</li>
+                            </ul>
+                        </div>
+                        <input type="text" name="" id="topseach_right_input">
+                        <div class="topseach_right_focus">
+                            <span>
+                                <b>热门搜索</b>
+                                <p>
+                                    <a href="">到时是</a>
+                                    <a href="">多少是</a>
+                                    <a href="">速度的</a>
+                                    <a href="">的v山地车</a>
+                                    <a href="">是的是的v</a>
+                                    <a href="">DVD v</a>
+                                </p>
+                            </span>
+                            <span>
+                                <b>国内</b>
+                                <p>
+                                    <a href="">到时是</a>
+                                    <a href="">多少是</a>
+                                    <a href="">速度的</a>
+                                    <a href="">的v山地车</a>
+                                    <a href="">是的是的v</a>
+                                    <a href="">DVD v</a>
+                                </p>
+                            </span>
+                            <span>
+                                <b>处境</b>
+                                <p>
+                                    <a href="">到时是</a>
+                                    <a href="">多少是</a>
+                                    <a href="">速度的</a>
+                                    <a href="">的v山地车</a>
+                                    <a href="">是的是的v</a>
+                                    <a href="">DVD v</a>
+                                </p>
+                            </span>
+                        </div>
+                        <button><a href="javascript:;">搜索</a></button>
+                    </div>
+                    <div>
+                        <p>服务热搜 9:00~21:00</p>
+                        <i>4006 70 6300</i>
+                        <img src="./images/yxkcode.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- //头部导航栏 -->
+        <div class="topnavlist content">
+            <div class="content">
+                <div class="topnavlist_nav">
+                    <nav id="nav">
+                        <ul class="nav">
+                            <li class="nav-item">
+                                <a href="#">首页</a>
+                            </li>
+                            <li class="nav-item navhover">
+                                <a href="#">周边游<i></i></a>
+                                <div class="subMenu">
+                                    <ul class="wrap">
+                                        <li><a href="#">案例分类1</a></li>
+                                        <li><a href="#">案例分类2</a></li>
+                                        <li><a href="#">案例分类3</a></li>
+                                        <li><a href="#">案例分类4</a></li>
+                                        <li><a href="#">案例分类5</a></li>
+                                        <li><a href="#">案例分类6</a></li>
+                                        <li><a href="#">案例分类7</a></li>
+                                        <li><a href="#">案例分类8</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="nav-item navhover">
+                                <a href="#">当地玩乐<i></i></a>
+                                <div class="subMenu">
+                                    <ul class="wrap">
+                                        <li><a href="#">产品分类1</a></li>
+                                        <li><a href="#">产品分类2</a></li>
+                                        <li><a href="#">产品分类3</a></li>
+                                        <li><a href="#">产品分类4</a></li>
+                                        <li><a href="#">产品分类5</a></li>
+                                        <li><a href="#">产品分类6</a></li>
+                                        <li><a href="#">产品分类7</a></li>
+                                        <li><a href="#">产品分类8</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#">自由行</a>
+                            </li>
+                            <li class="nav-item navhover">
+                                <a href="#">国内游<i></i></a>
+                                <div class="subMenu">
+                                    <ul class="wrap">
+                                        <li><a href="#">案例分类1</a></li>
+                                        <li><a href="#">案例分类2</a></li>
+                                        <li><a href="#">案例分类3</a></li>
+                                        <li><a href="#">案例分类4</a></li>
+                                        <li><a href="#">案例分类5</a></li>
+                                        <li><a href="#">案例分类6</a></li>
+                                        <li><a href="#">案例分类7</a></li>
+                                        <li><a href="#">案例分类8</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="nav-item navhover">
+                                <a href="#">出境游<i></i></a>
+                                <div class="subMenu">
+                                    <ul class="wrap">
+                                        <li><a href="#">案例分类1</a></li>
+                                        <li><a href="#">案例分类2</a></li>
+                                        <li><a href="#">案例分类3</a></li>
+                                        <li><a href="#">案例分类4</a></li>
+                                        <li><a href="#">案例分类5</a></li>
+                                        <li><a href="#">案例分类6</a></li>
+                                        <li><a href="#">案例分类7</a></li>
+                                        <li><a href="#">案例分类8</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="nav-item navhover">
+                                <a href="#">摄影游<i></i></a>
+                                <div class="subMenu">
+                                    <ul class="wrap">
+                                        <li><a href="#">案例分类1</a></li>
+                                        <li><a href="#">案例分类2</a></li>
+                                        <li><a href="#">案例分类3</a></li>
+                                        <li><a href="#">案例分类4</a></li>
+                                        <li><a href="#">案例分类5</a></li>
+                                        <li><a href="#">案例分类6</a></li>
+                                        <li><a href="#">案例分类7</a></li>
+                                        <li><a href="#">案例分类8</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#">户外游</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#">亲子游</a>
+                            </li>
+                            <li class="nav-item navhover">
+                                <a href="#">活动赛事<i></i></a>
+                                <div class="subMenu">
+                                    <ul class="wrap">
+                                        <li><a href="#">案例分类1</a></li>
+                                        <li><a href="#">案例分类2</a></li>
+                                        <li><a href="#">案例分类3</a></li>
+                                        <li><a href="#">案例分类4</a></li>
+                                        <li><a href="#">案例分类5</a></li>
+                                        <li><a href="#">案例分类6</a></li>
+                                        <li><a href="#">案例分类7</a></li>
+                                        <li><a href="#">案例分类8</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="nav-item navhover">
+                                <a href="#">主题游<i></i></a>
+                                <div class="subMenu">
+                                    <ul class="wrap">
+                                        <li><a href="#">案例分类1</a></li>
+                                        <li><a href="#">案例分类2</a></li>
+                                        <li><a href="#">案例分类3</a></li>
+                                        <li><a href="#">案例分类4</a></li>
+                                        <li><a href="#">案例分类5</a></li>
+                                        <li><a href="#">案例分类6</a></li>
+                                        <li><a href="#">案例分类7</a></li>
+                                        <li><a href="#">案例分类8</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#">定制游</a>
+                            </li>
+                            <li class="nav-item navhover">
+                                <a href="#">社区<i></i></a>
+                                <div class="subMenu">
+                                    <ul class="wrap">
+                                        <li><a href="#">案例分类1</a></li>
+                                        <li><a href="#">案例分类2</a></li>
+                                        <li><a href="#">案例分类3</a></li>
+                                        <li><a href="#">案例分类4</a></li>
+                                        <li><a href="#">案例分类5</a></li>
+                                        <li><a href="#">案例分类6</a></li>
+                                        <li><a href="#">案例分类7</a></li>
+                                        <li><a href="#">案例分类8</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#">游侠集市</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    </dvi>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="content">
+        <!-- //头部轮播框 -->
+        <div class="top_overBox">
+            <div class="top_overleft">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div>
+                    <ul>
+                        <li>QQ群：186175961（注明：游侠）</li>
+                        <li>咨询电话：400-670-6300</li>
+                        <li>经营许可证号：L-ZJ-CJ00161</li>
+                    </ul>
+                </div>
+                <div></div>
+                <div>
+                    <span>服务时间：09:00-21:00</span>
+                    <span>在线咨询(点击对话)</span>
+                </div>
+            </div>
+            <div class="top_overright">
+                <!-- Swiper -->
+                <div class="swiper-container">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide"><img src="./images/waresimg/glx_topoverimg1.jpg" alt=""></div>
+                        <div class="swiper-slide"><img src="./images/waresimg/glx_topoverimg2.jpg" alt=""></div>
+                        <div class="swiper-slide"><img src="./images/waresimg/glx_topoverimg3.jpg" alt=""></div>
+                        <div class="swiper-slide"><img src="./images/waresimg/glx_topoverimg4.jpg" alt=""></div>
+                        <div class="swiper-slide"><img src="./images/waresimg/glx_topoverimg5.jpg" alt=""></div>
+                        <div class="swiper-slide"><img src="./images/waresimg/glx_topoverimg6.jpg" alt=""></div>
+                        <div class="swiper-slide"><img src="./images/waresimg/glx_overimg7.png" alt=""></div>
+                        <div class="swiper-slide"><img src="./images/waresimg/glx_overimg8.jpg" alt=""></div>
+
+                    </div>
+                    <!-- 如果需要分页器 -->
+                    <div class="swiper-pagination"></div>
+
+                    <!-- 如果需要导航按钮 -->
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                </div>
+            </div>
+        </div>
+        <!-- //主体 -->
+        <div class="mains">
+            <!-- //左侧 -->
+            <div class="mains_left">
+                <div class="mains_leftListTop">
+                    <div class="mains_leftListTop_nav">
+                        <span>国内游活动报名排行榜</span>
+                        <ul>
+                            <li>本周</li>
+                            <li>本月</li>
+                            <li>全年</li>
+                        </ul>
+                    </div>
+                    <div class="mains_leftListTop_conten">
+                        <ul class="mains_leftListTop_contenImglist">
+                            <li>
+                                <a href=""><img src="./images/waresimg/glx.jpg" alt=""></a>
+                                <span>
+                                    <p>【网红青烟威】2-6人VIP团，全程5星酒店，青岛-烟台-威海，玩转山东半岛，《…</p>
+                                    <i>124</i>
+                                </span>
+                            </li>
+                            <li>
+                                <a href=""><img src="./images/waresimg/glx_mansimg2.jpg" alt=""></a>
+                                <span>
+                                    <p>【网红青烟威】2-6人VIP团，全程5星酒店，青岛-烟台-威海，玩转山东半岛，《…</p>
+                                    <i>124</i>
+                                </span>
+                            </li>
+                            <li>
+                                <a href=""><img src="./images/waresimg/glx_mansimg3.jpg" alt=""></a>
+                                <span>
+                                    <p>【网红青烟威】2-6人VIP团，全程5星酒店，青岛-烟台-威海，玩转山东半岛，《…</p>
+                                    <i>124</i>
+                                </span>
+                            </li>
+                        </ul>
+                        <ul class="mains_leftListTop_contenTextlist">
+                            <li>
+                                <s>4</s>
+                                <p>
+                                    【田园靖西】五一成行，名额有限：南宁-通灵大峡谷-渠洋湖-靖西鹅泉-德天瀑布-明仕田园，4天3夜深度之旅！（批批入住明仕山庄）已报名此活动91人
+                                </p>
+                            </li>
+                            <li>
+                                <s>5</s>
+                                <p>
+                                    【田园靖西】五一成行，名额有限：南宁-通灵大峡谷-渠洋湖-靖西鹅泉-德天瀑布-明仕田园，4天3夜深度之旅！（批批入住明仕山庄）已报名此活动91人
+                                </p>
+                            </li>
+                            <li>
+                                <s>6</s>
+                                <p>
+                                    【田园靖西】五一成行，名额有限：南宁-通灵大峡谷-渠洋湖-靖西鹅泉-德天瀑布-明仕田园，4天3夜深度之旅！（批批入住明仕山庄）已报名此活动91人
+                                </p>
+                            </li>
+                            <li>
+                                <s>7</s>
+                                <p>
+                                    【田园靖西】五一成行，名额有限：南宁-通灵大峡谷-渠洋湖-靖西鹅泉-德天瀑布-明仕田园，4天3夜深度之旅！（批批入住明仕山庄）已报名此活动91人
+                                </p>
+                            </li>
+                            <li>
+                                <s>8</s>
+                                <p>
+                                    【田园靖西】五一成行，名额有限：南宁-通灵大峡谷-渠洋湖-靖西鹅泉-德天瀑布-明仕田园，4天3夜深度之旅！（批批入住明仕山庄）已报名此活动91人
+                                </p>
+                            </li>
+                            <li>
+                                <s>9</s>
+                                <p>
+                                    【田园靖西】五一成行，名额有限：南宁-通灵大峡谷-渠洋湖-靖西鹅泉-德天瀑布-明仕田园，4天3夜深度之旅！（批批入住明仕山庄）已报名此活动91人
+                                </p>
+                            </li>
+                            <li>
+                                <s>10</s>
+                                <p>
+                                    【田园靖西】五一成行，名额有限：南宁-通灵大峡谷-渠洋湖-靖西鹅泉-德天瀑布-明仕田园，4天3夜深度之旅！（批批入住明仕山庄）已报名此活动91人
+                                </p>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+                <div class="mains_leftListLoge"><a href=""><img src="./images/waresimg/glx_leftlistimg1.jpg" alt=""></a>
+                </div>
+                <div class="mains_leftImg">
+                    <div class="mains_leftImgTop">
+                        国内游明星领队
+                    </div>
+                    <div class="mains_leftImglist">
+                        <ul>
+                            <li>
+                                <span>
+                                    <small><a href=""><img src="./images/waresimg/glx_leftimg2.jpg" alt=""></a></small>
+                                    <i>创创</i>
+                                </span>
+                                <span>
+                                    <small><a href=""><img src="./images/waresimg/glzxyRightimg3.jpg"
+                                                alt=""></a></small>
+                                    <i>心灵的驿站</i>
+                                </span>
+                            </li>
+                            <li>
+                                <span>
+                                    <small><a href=""><img src="./images/waresimg/glzxyRightimg4.jpg"
+                                                alt=""></a></small>
+                                    <i>光音</i>
+                                </span>
+                                <span>
+                                    <small><a href=""><img src="./images/waresimg/glzxyRightimg5.jpg"
+                                                alt=""></a></small>
+                                    <i>Leon羚羊</i>
+                                </span>
+                            </li>
+                            <li>
+                                <span>
+                                    <small><a href=""><img src="./images/waresimg/glzxyRightimg6.jpg"
+                                                alt=""></a></small>
+                                    <i>小野xiaoye</i>
+                                </span>
+                                <span>
+                                    <small><a href=""><img src="./images/waresimg/glzxyRightimg7.jpg"
+                                                alt=""></a></small>
+                                    <i>大大大大施</i>
+                                </span>
+                            </li>
+                        </ul>
+                        <div>期待您的加入</div>
+                    </div>
+                </div>
+                <div class="mains_leftYxys">
+                    <div class="mains_leftYxysNav">
+                        <span>游侠影视</span><i>更多+</i>
+                    </div>
+                    <div class="mains_leftYxysBox">
+                        <div class="mains_leftYxysBoxlist">
+                            <span>
+                                <a href=""><img src="./images/waresimg/glx_leftYxkscimg1.jpg" alt=""></a>
+                                <i></i>
+                            </span>
+                            <span>
+                                <p>游侠客宣传片</p>
+                                <small>观看视频</small>
+                            </span>
+                        </div>
+                        <ul>
+                            <li>游侠风-科学探险，激情户外</li>
+                            <li>旅游界的奥斯卡之2019游侠客国内线路颁奖晚会</li>
+                            <li>真正的旅行踩线第一季：小众南部非洲三国</li>
+                            <li>飞跃太行-深入太行山腹地！</li>
+                            <li>嗨，你就是游侠客要找的人！</li>
+                            <li>极北追光-冰岛</li>
+                            <li>世界人文图鉴第一季</li>
+                            <li>游侠国际登山队-熊野古道</li>
+                            <li>游侠登山队-征服7+2</li>
+                            <li>秋日南京-梦回金陵</li>
+                            <li>探索中国 · 踩线计划-第一季</li>
+                            <li>游侠客夜爬第500期纪实</li>
+                            <li>普通人可以挑战的“7+2”之巅</li>
+                            <li>熊野古道-穿越千年的朝圣之路</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- //右侧 -->
+            <div class="mains_right">
+                <div class="mains_rightTime">
+                    <div class="mains_rightTime_nav">
+                        <ul>
+                            <li>全部</li>
+                            <li>深度游</li>
+                            <li>休闲游</li>
+                            <li>摄影游</li>
+                            <li>亲子游</li>
+                            <li>当地玩乐</li>
+                            <li>户外游</li>
+                            <li>活动赛事</li>
+                            <li>自由行</li>
+                            <li>邮轮</li>
+                            <li>自驾游</li>
+                        </ul>
+                    </div>
+                    <div class="mains_rightTime_conten">
+                        <span>
+                            <b>活动月份：</b>
+                            <ol>
+                                <li>不限</li>
+                                <li>4月</li>
+                                <li>5月</li>
+                                <li>6月</li>
+                                <li>7月</li>
+                                <li>8月</li>
+                                <li>9月</li>
+                            </ol>
+                        </span>
+                        <span>
+                            <b>活动天数：</b>
+                            <ol>
+                                <li>不限 </li>
+                                <li>4-7天 </li>
+                                <li>8-9天 </li>
+                                <li>9天以上</li>
+                            </ol>
+                        </span>
+                        <span>
+                            <b>活动费用：</b>
+                            <ol>
+                                <li>不限</li>
+                                <li>3000以内 </li>
+                                <li>3000~5000 </li>
+                                <li>5000以上</li>
+                            </ol>
+                        </span>
+                        <span>
+                            <b>目的地：</b>
+                            <ol>
+                                <li>不限</li>
+                                <li>云南</li>
+                                <li>四川</li>
+                                <li>北京</li>
+                                <li>东北</li>
+                                <li>贵州</li>
+                                <li>西藏</li>
+                                <li>湖南</li>
+                                <li>湖北</li>
+                                <li>广西</li>
+                                <li>西北</li>
+                                <li>华南</li>
+                                <li>福建</li>
+                                <li>华东</li>
+                                <li>秦晋</li>
+                                <li>华北</li>
+                                <li>华中</li>
+                                <li>重庆</li>
+                                <li>内蒙古</li>
+                            </ol>
+                        </span>
+                        <span>
+                            <b>活动类型：</b>
+                            <ol>
+                                <li>不限</li>
+                                <li>当地体验</li>
+                                <li>深入探索</li>
+                                <li>文化历史</li>
+                                <li>观光旅游</li>
+                                <li>亲子户外</li>
+                                <li>亲子休闲</li>
+                                <li>亲子课堂</li>
+                                <li>职业体验</li>
+                                <li>自然教育</li>
+                                <li>研学</li>
+                                <li>游学</li>
+                                <li>独立营</li>
+                                <li>户外徒步</li>
+                                <li>骑行</li>
+                                <li>露营体验</li>
+                                <li>攀岩速降</li>
+                                <li>空中项目</li>
+                                <li>滑雪溜冰</li>
+                                <li>漂流溯溪</li>
+                                <li>水上项目</li>
+                                <li>瑜伽体验</li>
+                                <li>深度瑜伽</li>
+                                <li>户外课堂</li>
+                                <li>名师专线</li>
+                                <li>摄影教学团</li>
+                                <li>摄影采风</li>
+                                <li>摄影课</li>
+                            </ol>
+                        </span>
+                        <span>
+                            <b>出行日期：</b>
+                            <input type="text" id="test1">
+                            <s>到</s>
+                            <input type="text" id="test2">
+                            <button>确定</button>
+                        </span>
+                    </div>
+                </div>
+                <div class="mains_rightBgimg"></div>
+                <div class="mains_rightlistNav">
+                    <ul>
+                        <li>国内游</li>
+                        <li>云南</li>
+                        <li>东北</li>
+                        <li>新疆</li>
+                        <li>西北</li>
+                        <li>内蒙</li>
+                        <li>西藏</li>
+                        <li>四川</li>
+                        <li>贵州</li>
+                        <li>两湖</li>
+                        <li>广西</li>
+                        <li>秦晋</li>
+                        <li>华东</li>
+                        <li>华北</li>
+                        <li>华南</li>
+                        <li>其他</li>
+                    </ul>
+                </div>
+                <div class="mains_rightlistBox">
+                    <div class="mains_rightBoxS">
+                        <div class="mains_rightList">
+                            <a href=""><img src="./images/waresimg/glx_mainrightlistimg1.jpg" alt=""></a>
+                            <span>
+                                <a>【游侠宝贝·多彩贵州行】天眼研学（FAST体验+天文小镇星空课程），考察世界遗产喀斯特地貌，水族非遗活动体验，深入苗族村寨，探寻天文知识和少数民俗贵6日之旅<s>国内</s></a>
+                                <p>
+                                    <门票优惠>探测宇宙奥秘，多种匠心手工深度体验，让孩子认识贵州最具代表性的文化与风情
+                                </p>
+                                <small>目 的 地：贵州 贵阳 西江 丹寨</small>
+                                <small>报名人数：232 人</small>
+                                <span>
+                                    <small><i>￥</i><b>4280</b><i>元</i></small>
+                                    <button>查看详情</button>
+                                </span>
+                            </span>
+                            <div>
+                                <span><small>行程天数 6 天</small><b>集合地： 贵阳</b></span>
+                                <span>
+                                    <i>活动时间：</i>
+                                    <select name="" id="">
+                                        <option value="">2020.04.29(星期三)-- 2020.05.04(星期一)</option>
+                                        <option value="">2020.04.29(星期三)-- 2020.05.04(星期一)</option>
+                                        <option value="">2020.04.29(星期三)-- 2020.05.04(星期一)</option>
+                                        <option value="">2020.04.29(星期三)-- 2020.05.04(星期一)</option>
+                                    </select>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="mains_rightList">
+                            <a href=""><img src="./images/waresimg/thlx_sfqimg2.jpg" alt=""></a>
+                            <span>
+                                <a>【游侠宝贝·多彩贵州行】天眼研学（FAST体验+天文小镇星空课程），考察世界遗产喀斯特地貌，水族非遗活动体验，深入苗族村寨，探寻天文知识和少数民俗贵6日之旅<s>国内</s></a>
+                                <p>
+                                    <门票优惠>探测宇宙奥秘，多种匠心手工深度体验，让孩子认识贵州最具代表性的文化与风情
+                                </p>
+                                <small>目 的 地：贵州 贵阳 西江 丹寨</small>
+                                <small>报名人数：232 人</small>
+                                <span>
+                                    <small><i>￥</i><b>4280</b><i>元</i></small>
+                                    <button>查看详情</button>
+                                </span>
+                            </span>
+                            <div>
+                                <span><small>行程天数 6 天</small><b>集合地： 贵阳</b></span>
+                                <span>
+                                    <i>活动时间：</i>
+                                    <select name="" id="">
+                                        <option value="">2020.04.29(星期三)-- 2020.05.04(星期一)</option>
+                                        <option value="">2020.04.29(星期三)-- 2020.05.04(星期一)</option>
+                                        <option value="">2020.04.29(星期三)-- 2020.05.04(星期一)</option>
+                                        <option value="">2020.04.29(星期三)-- 2020.05.04(星期一)</option>
+                                    </select>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="mains_rightList">
+                            <a href=""><img src="./images/waresimg/glx_rightimg2.jpg" alt=""></a>
+                            <span>
+                                <a>【游侠宝贝·多彩贵州行】天眼研学（FAST体验+天文小镇星空课程），考察世界遗产喀斯特地貌，水族非遗活动体验，深入苗族村寨，探寻天文知识和少数民俗贵6日之旅<s>国内</s></a>
+                                <p>
+                                    <门票优惠>探测宇宙奥秘，多种匠心手工深度体验，让孩子认识贵州最具代表性的文化与风情
+                                </p>
+                                <small>目 的 地：贵州 贵阳 西江 丹寨</small>
+                                <small>报名人数：232 人</small>
+                                <span>
+                                    <small><i>￥</i><b>4280</b><i>元</i></small>
+                                    <button>查看详情</button>
+                                </span>
+                            </span>
+                            <div>
+                                <span><small>行程天数 6 天</small><b>集合地： 贵阳</b></span>
+                                <span>
+                                    <i>活动时间：</i>
+                                    <select name="" id="">
+                                        <option value="">2020.04.29(星期三)-- 2020.05.04(星期一)</option>
+                                        <option value="">2020.04.29(星期三)-- 2020.05.04(星期一)</option>
+                                        <option value="">2020.04.29(星期三)-- 2020.05.04(星期一)</option>
+                                        <option value="">2020.04.29(星期三)-- 2020.05.04(星期一)</option>
+                                    </select>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="mains_rightList">
+                            <a href=""><img src="./images/waresimg/glx_rightimg3.jpg" alt=""></a>
+                            <span>
+                                <a>【游侠宝贝·多彩贵州行】天眼研学（FAST体验+天文小镇星空课程），考察世界遗产喀斯特地貌，水族非遗活动体验，深入苗族村寨，探寻天文知识和少数民俗贵6日之旅<s>国内</s></a>
+                                <p>
+                                    <门票优惠>探测宇宙奥秘，多种匠心手工深度体验，让孩子认识贵州最具代表性的文化与风情
+                                </p>
+                                <small>目 的 地：贵州 贵阳 西江 丹寨</small>
+                                <small>报名人数：232 人</small>
+                                <span>
+                                    <small><i>￥</i><b>4280</b><i>元</i></small>
+                                    <button>查看详情</button>
+                                </span>
+                            </span>
+                            <div>
+                                <span><small>行程天数 6 天</small><b>集合地： 贵阳</b></span>
+                                <span>
+                                    <i>活动时间：</i>
+                                    <select name="" id="">
+                                        <option value="">2020.04.29(星期三)-- 2020.05.04(星期一)</option>
+                                        <option value="">2020.04.29(星期三)-- 2020.05.04(星期一)</option>
+                                        <option value="">2020.04.29(星期三)-- 2020.05.04(星期一)</option>
+                                        <option value="">2020.04.29(星期三)-- 2020.05.04(星期一)</option>
+                                    </select>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mains_rightBoxS">
+                        <div class="mains_rightList">
+                            <a href=""><img src="./images/waresimg/zpsyzp_listimg2.jpg" alt=""></a>
+                            <span>
+                                <a>【游侠宝贝·多彩贵州行】天眼研学（FAST体验+天文小镇星空课程），考察世界遗产喀斯特地貌，水族非遗活动体验，深入苗族村寨，探寻天文知识和少数民俗贵6日之旅<s>国内</s></a>
+                                <p>
+                                    <门票优惠>探测宇宙奥秘，多种匠心手工深度体验，让孩子认识贵州最具代表性的文化与风情
+                                </p>
+                                <small>目 的 地：贵州 贵阳 西江 丹寨</small>
+                                <small>报名人数：232 人</small>
+                                <span>
+                                    <small><i>￥</i><b>4280</b><i>元</i></small>
+                                    <button>查看详情</button>
+                                </span>
+                            </span>
+                            <div>
+                                <span><small>行程天数 6 天</small><b>集合地： 贵阳</b></span>
+                                <span>
+                                    <i>活动时间：</i>
+                                    <select name="" id="">
+                                        <option value="">2020.04.29(星期三)-- 2020.05.04(星期一)</option>
+                                        <option value="">2020.04.29(星期三)-- 2020.05.04(星期一)</option>
+                                        <option value="">2020.04.29(星期三)-- 2020.05.04(星期一)</option>
+                                        <option value="">2020.04.29(星期三)-- 2020.05.04(星期一)</option>
+                                    </select>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="mains_rightList">
+                            <a href=""><img src="./images/waresimg/zpsyzp_listimg3.jpg" alt=""></a>
+                            <span>
+                                <a>【游侠宝贝·多彩贵州行】天眼研学（FAST体验+天文小镇星空课程），考察世界遗产喀斯特地貌，水族非遗活动体验，深入苗族村寨，探寻天文知识和少数民俗贵6日之旅<s>国内</s></a>
+                                <p>
+                                    <门票优惠>探测宇宙奥秘，多种匠心手工深度体验，让孩子认识贵州最具代表性的文化与风情
+                                </p>
+                                <small>目 的 地：贵州 贵阳 西江 丹寨</small>
+                                <small>报名人数：232 人</small>
+                                <span>
+                                    <small><i>￥</i><b>4280</b><i>元</i></small>
+                                    <button>查看详情</button>
+                                </span>
+                            </span>
+                            <div>
+                                <span><small>行程天数 6 天</small><b>集合地： 贵阳</b></span>
+                                <span>
+                                    <i>活动时间：</i>
+                                    <select name="" id="">
+                                        <option value="">2020.04.29(星期三)-- 2020.05.04(星期一)</option>
+                                        <option value="">2020.04.29(星期三)-- 2020.05.04(星期一)</option>
+                                        <option value="">2020.04.29(星期三)-- 2020.05.04(星期一)</option>
+                                        <option value="">2020.04.29(星期三)-- 2020.05.04(星期一)</option>
+                                    </select>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="mains_rightList">
+                            <a href=""><img src="./images/waresimg/zpsyzp_listimg4.jpg" alt=""></a>
+                            <span>
+                                <a>【游侠宝贝·多彩贵州行】天眼研学（FAST体验+天文小镇星空课程），考察世界遗产喀斯特地貌，水族非遗活动体验，深入苗族村寨，探寻天文知识和少数民俗贵6日之旅<s>国内</s></a>
+                                <p>
+                                    <门票优惠>探测宇宙奥秘，多种匠心手工深度体验，让孩子认识贵州最具代表性的文化与风情
+                                </p>
+                                <small>目 的 地：贵州 贵阳 西江 丹寨</small>
+                                <small>报名人数：232 人</small>
+                                <span>
+                                    <small><i>￥</i><b>4280</b><i>元</i></small>
+                                    <button>查看详情</button>
+                                </span>
+                            </span>
+                            <div>
+                                <span><small>行程天数 6 天</small><b>集合地： 贵阳</b></span>
+                                <span>
+                                    <i>活动时间：</i>
+                                    <select name="" id="">
+                                        <option value="">2020.04.29(星期三)-- 2020.05.04(星期一)</option>
+                                        <option value="">2020.04.29(星期三)-- 2020.05.04(星期一)</option>
+                                        <option value="">2020.04.29(星期三)-- 2020.05.04(星期一)</option>
+                                        <option value="">2020.04.29(星期三)-- 2020.05.04(星期一)</option>
+                                    </select>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="mains_rightList">
+                            <a href=""><img src="./images/waresimg/zpsyzp_listimg5.jpg" alt=""></a>
+                            <span>
+                                <a>【游侠宝贝·多彩贵州行】天眼研学（FAST体验+天文小镇星空课程），考察世界遗产喀斯特地貌，水族非遗活动体验，深入苗族村寨，探寻天文知识和少数民俗贵6日之旅<s>国内</s></a>
+                                <p>
+                                    <门票优惠>探测宇宙奥秘，多种匠心手工深度体验，让孩子认识贵州最具代表性的文化与风情
+                                </p>
+                                <small>目 的 地：贵州 贵阳 西江 丹寨</small>
+                                <small>报名人数：232 人</small>
+                                <span>
+                                    <small><i>￥</i><b>4280</b><i>元</i></small>
+                                    <button>查看详情</button>
+                                </span>
+                            </span>
+                            <div>
+                                <span><small>行程天数 6 天</small><b>集合地： 贵阳</b></span>
+                                <span>
+                                    <i>活动时间：</i>
+                                    <select name="" id="">
+                                        <option value="">2020.04.29(星期三)-- 2020.05.04(星期一)</option>
+                                        <option value="">2020.04.29(星期三)-- 2020.05.04(星期一)</option>
+                                        <option value="">2020.04.29(星期三)-- 2020.05.04(星期一)</option>
+                                        <option value="">2020.04.29(星期三)-- 2020.05.04(星期一)</option>
+                                    </select>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- //底部 -->
+    <footer>
+        <div class="footer_boton">
+            <div class="content">
+                <div class="footer_botonlst2">
+                    <span>
+                        <p>
+                            <a href="">关于游侠客</a>
+                            <a href="">游侠客的故事</a>
+                            <a href="">联系游侠客</a>
+                            <a href="">游侠客招娉</a>
+                            <a href="">意见反馈</a>
+                            <a href="">使用协议</a>
+                            <a href="">隐私政策</a>
+                            <a href="">交换链接</a>
+                            <a href="">帮助中心</a>
+                            <a href="">网站地图</a>
+                            <a href="">商务合</a>
+                        </p>
+                        <p>
+                            浙ICP备20007990号 浙公网安备 33010602002105号 营业执照 浙江游侠客国际旅行社有限公司 杭州途游电子商务有限公司 许可证编号：L-ZJ-CJ00161
+                        </p>
+                        <p>
+                            © 2020 youxiake.com 版权所有法律顾问：北京中伦文德（杭州）律师事务所 傅林放 杭州市旅游投诉电话：0571-96123
+                            投诉及紧急事件联系电话：400-670-6300转5
+                        </p>
+                        <p>
+                            旅游预订电话(免长途费)：400-670-6300，公司总部地址：浙江省杭州市西湖区教工路198号浙商大创业园D幢3楼，投诉建议邮箱：jianyi@youxiake.com
+                        </p>
+                    </span>
+                    <span>
+                        <h3><img src="./images/weibo_code.png" alt=""><br>游侠客公众号</h3>
+                        <h3><img src="./images/weixin_code.png" alt=""><br>扫一扫下载APP</h3>
+                    </span>
+                </div>
+                <div class="footer_botonlst3">
+                    <span>
+                        <a href=""><i></i></a>
+                        <a href=""><i></i></a>
+                        <a href=""><i></i></a>
+                        <a href=""><i></i></a>
+                        <a href=""><i></i></a>
+                        <a href=""><i></i></a>
+                        <a href=""><i></i></a>
+                        <a href=""><i></i></a>
+                        <a href=""><i></i></a>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- //右边固定栏 -->
+    <div class="right_flex">
+        <ul>
+            <li></li>
+            <li></li>
+            <li><span>摄影大赛</span></li>
+            <li><span>发表游记</span></li>
+            <li><span>图片上传</span></li>
+            <li><span>我的消息</span></li>
+            <li><i><img src="./images/weixin_code.jpg" alt=""></i></li>
+        </ul>
+        <ol>
+            <li><span>意见反馈</span></li>
+            <li>APP<i><img src="./images/weixin_code3.png" alt=""></i></li>
+            <li class="topon"><span>还回顶部</span></li>
+        </ol>
+    </div>
+    <!-- //页面底部弹出栏 -->
+    <div class="botton_new">
+        <div class="content">
+            <div class="botton_newbcimg"></div>
+            <div class="botton_new_inputs">
+                <span id="number"><input type="text" placeholder="11"></span>
+                <span id="code"><input type="text" value="" placeholder="输入验证码"><button
+                        id="gaincode">获取验证码</button></span>
+                <span id="draw">一键领取</span>
+            </div>
+            <div class="botton_new_hidehover"><i></i></div>
+        </div>
+        <div class="botton_new_out">手机号码格式错误!</div>
+    </div>
+    <!-- //左边loge弹出标图 -->
+    <div class="left_loge"><img src="./images/left_fleximg.png" alt=""></div>
+    <script src="./js/jquery-3.4.1.min.js"></script>
+    <script src="./js/swiper.min.js"></script>
+    <script src="./js/laydate.js"></script>
+    <script src="./js/glx.js">
+
+    </script>
+</body>
+
+</html>
