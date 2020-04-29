@@ -52,3 +52,40 @@ $(function () {
         $(this).children('div.subMenu').stop().slideToggle(100);
     })
 })
+
+
+
+//还回顶部
+$('.right_flex ol .topon').on('click', function () {
+    $(document).scrollTop(0)
+})
+
+//页面底部弹出栏
+$('.botton_new_hidehover').on('click', function () {
+    $('.botton_new').animate({
+        left: -100 + '%'
+    }, 500)
+})
+$('.left_loge').on('click', function () {
+    $('.botton_new').animate({
+        left: 0
+    }, 500)
+})
+$('#gaincode').on('click', function () {
+    let Number = $('#number').text().length
+    if (Number <= 0) {
+        $('.botton_new_out').show().text("请输入手机号码！")
+        setTimeout(function () {
+            $('.botton_new_out').hide()
+        }, 1000)
+    }
+})
+$('#draw').on('click', function () {
+    let Code = $('#code').val()
+    if (Code <= 0) {
+        $('.botton_new_out').show().text("请输入验证码！")
+        setTimeout(function () {
+            $('.botton_new_out').hide()
+        }, 1000)
+    }
+})
