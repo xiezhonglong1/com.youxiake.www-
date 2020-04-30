@@ -1,0 +1,342 @@
+header{
+    width: 100%;
+    height: 70px;
+    background-color: #333;
+    div{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        img{
+            vertical-align: middle;
+        }
+    }
+}
+
+main{
+    position: relative;
+    width: 100%;
+    height: 555px;
+    background-image: url(../images/waresimg/zxkf_index_bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    .loginBox{
+        position: absolute;
+        top: 5%;
+        right: 18%;
+        width: 350px;
+        overflow: hidden;
+        padding: 20px 25px;
+        box-sizing: border-box;
+        background-color: rgba(0,0,0,0.6);
+        .loginBox_nav{
+            width: 100%;
+            height: 45px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            span{
+                display: inline-block;
+                font-size: 19px;
+                color: white;
+                padding: 5px 12px;
+                cursor: pointer;
+                &:nth-last-child(1){
+                    border-left: 1px solid white;
+                }
+            }
+            .spHover{
+                color: #f49418;
+            }
+        }
+        .loginBox_Ipt{
+            width: 100%;
+            padding: 10px 0;
+            overflow: hidden;
+            .loginBox_Iptlist{
+                display: none;
+                &:nth-child(1){
+                    display: block;
+                }
+            }
+            input{
+                width: 100%;
+                height: 40px;
+                line-height: 40px;
+                border: none;
+                margin: 7px 0;
+                padding-left: 15px;
+                box-sizing: border-box;
+                background-color: #fff;
+            }
+            .list2{
+                &>input{
+                    margin: 10px 0;
+                }
+            }
+            span{
+                // display: inline-block;
+                width: 100%;
+                height: 35px;
+                line-height: 35px;
+                margin: 15px 0;
+                display: flex;
+                justify-content: space-between;
+                input{
+                    width: 60%;
+                    height: 100%;
+                    line-height: 35px;
+                    margin: 0;
+                    padding-left: 10px;
+                }
+                button{
+                    position: relative;
+                    width: 35%;
+                    color: black;
+                    font-size: 14px;
+                    text-align: center;
+                    border: none;
+                    background-color: #ffc000;
+                    i{
+                        position: absolute;
+                        bottom: -20px;
+                        left: 13px;
+                        color: #a5a3a4;
+                        font-size: 13px;
+                    }
+                }
+            }
+        }
+        .loginBox_login{
+            width: 100%;
+            color: #fff;
+            height: 35px;
+            line-height: 35px;
+            text-align: center;
+            font-size: 17px;
+            margin: 15px 0;
+            background-color: #ff9a00;
+        }
+        .loginBox_news{
+            width: 100%;
+            height: 35px;
+            margin: 15px 0;
+            line-height: 35px;
+            span{
+                color: #cac7c3;
+                font-size: 15px;
+                &:nth-last-child(1){
+                    font-size: 13px;
+                    float: right;
+                    cursor: pointer;
+                }
+            }
+            a{
+                color: #ff9a00;
+                font-size: 14px;
+                margin-left: 15px;
+            }
+        }
+        .loginBox_or{
+            width: 100%;
+            height: 30px;
+            margin: 15px 0;
+            margin-top: 20px;
+            line-height: 30px;
+            color: #aaa;
+            font-size: 14px;
+            text-align: center;
+        }
+        .loginBox_QW{
+            width: 100%;
+            height: 45px;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            i{
+                display: inline-block;
+                width: 50px;
+                height: 50px;
+                background-image: url(../images/xzkf_QQlogo.png);
+                background-repeat: no-repeat;
+                background-position: center;
+                &:hover{
+                    background-image: url(../images/zxkf_QQlogoy.png);
+                }
+                &:nth-last-child(1){
+                    background-image: url(../images/zxkf_WXlogoy.png);
+                    &:hover{
+                        background-image: url(../images/zxkf_WXlogo.png);
+                    }
+                }
+            }
+        }
+    }
+}
+
+footer{
+    width: 100%;
+    .btm_on{
+        width: 100%;
+        padding: 35px 0;
+        margin-bottom: 6px;
+        overflow: hidden;
+        background-color: #f9f9fa;
+        box-shadow: -10px 0px 15px #9b9797;
+        .btm_onSpan{
+            display: flex;
+            justify-content: center;
+        }
+        span{
+            float: left;
+            width: 30%;
+            overflow: hidden;
+            &:nth-child(1){
+                height: 120px;
+                // margin: 0 auto;
+                // margin-left: 57px;
+                background-image: url(../images/xzkf_login.png);
+                background-repeat: no-repeat;
+                background-position: 0 -88px;
+            }
+            i{
+                display: inline-block;
+                width: 100%;
+                height: 30px;
+                background-image: url(../images/xzkf_login.png);
+                background-repeat: no-repeat;
+                background-position: 0 -257px;
+            }
+            &:nth-child(3) i{
+                background-position: 0 -338px;
+            }
+            ul{
+                width: 100%;
+                li{
+                    width: 100%;
+                    font-size: 14px;
+                    color: #777;
+                    margin: 15px 0;
+                }
+            }
+        }
+    }
+    .btm_down{
+        position: relative;
+        width: 100%;
+        height: 130px;
+        overflow: hidden;
+        padding: 20px 0;
+        box-sizing: border-box;
+        background-color: #ededed;
+        p{
+            width: 100%;
+            font-size: 14px;
+            color: #b0b0b0;
+            margin: 15px 0;
+            text-align: center;
+            a{
+                color: #b0b0b0;
+                margin: 0 10px;
+            }
+        }
+        i{
+            position: absolute;
+            top: 23%;
+            right: 21%;
+            display: inline-block;
+            width: 100px;
+            height: 100px;
+            background-image: url(../images/xzkf_butonlogo.png);
+            background-repeat: no-repeat;
+        }
+    }
+}
+
+.right_f{
+    position: fixed;
+    right: 0;
+    top: 20%;
+    .right_fList{
+        position: relative;
+        width: 30px;
+        height: 150px;
+        background-color: #ffc000;
+        font-size: 18px;
+        color: black;
+        text-align: center;
+        margin: 35px 0;
+        padding: 13px 4px 25px;
+        cursor: pointer;
+        // transform: 0.5;
+        i{
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            display: inline-block;
+            width: 100%;
+            height: 30px;
+            background-image: url(../images/zxkf_rightBg.png);
+            background-repeat: no-repeat;
+            background-position: 11px 5px;
+        }
+        &:nth-child(2){
+            color: white;
+            height: 135px;
+            padding: 40px 4px 0px;
+            background-color: #44b549;
+            i{
+                position: absolute;
+                top: 11px;
+                left: 9px;
+                background-image: url(../images/zxkf_WBlogo.png);
+                background-position: 0 0;
+            }
+            p{
+                margin: 0 auto;
+            }
+        }
+        span{
+            position: absolute;
+            bottom: 0;
+            left: 0px;
+            display: inline-block;
+            width: 250px;
+            height: 100%;
+            box-sizing: border-box;
+            background-color: #fff;
+            transition: 0.5s;
+            z-index: -1;
+            p{
+                width: 100%;
+                text-align: center;
+                font-size: 13px;
+                color: black;
+                padding: 0 10px;
+                box-sizing: border-box;
+                margin-top: 60px;
+                a{
+                    color: #ffb647;
+                    text-decoration: underline;
+                }
+            }
+            button{
+                font-size: 13px;
+                background-color: #ffc000;
+                color: black;
+                border-radius: 8px;
+                padding: 10px 25px;
+                border: none;
+                margin: 10px auto;
+            }
+            img{
+                vertical-align: middle;
+            }
+        }
+        &:hover span{
+            left: -250px;
+            transition: 0.5s;
+        }
+    }
+}
