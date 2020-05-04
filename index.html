@@ -116,7 +116,7 @@
                     <div>
                         <p>服务热搜 9:00~21:00</p>
                         <i>4006 70 6300</i>
-                        <img src="./images/yxkcode.png" alt="">
+                        <img src="./images/yxkcode.png" alt="" id="yxkcode">
                     </div>
                 </div>
             </div>
@@ -146,7 +146,7 @@
                                 </div>
                             </li>
                             <li class="nav-item">
-                                <a href="#">当地玩乐<i></i></a>
+                                <a href="ddwl.html">当地玩乐<i></i></a>
                                 <div class="subMenu">
                                     <ul class="wrap">
                                         <li><a href="#">产品分类1</a></li>
@@ -161,10 +161,10 @@
                                 </div>
                             </li>
                             <li class="nav-item">
-                                <a href="#">自由行</a>
+                                <a href="zyx.html">自由行</a>
                             </li>
                             <li class="nav-item">
-                                <a href="#">国内游<i></i></a>
+                                <a href="glx.html">国内游<i></i></a>
                                 <div class="subMenu">
                                     <ul class="wrap">
                                         <li><a href="#">案例分类1</a></li>
@@ -245,7 +245,7 @@
                                 </div>
                             </li>
                             <li class="nav-item">
-                                <a href="#">定制游</a>
+                                <a href="dzy.html">定制游</a>
                             </li>
                             <li class="nav-item">
                                 <a href="#">社区<i></i></a>
@@ -1839,6 +1839,13 @@
     <script src="./js/jquery-3.4.1.min.js"></script>
     <script src="./js/main.js"></script>
     <script src="./js/index.js">
+    </script>
+    <script>
+        $(document).ready(function () {
+            $('#yxkcode').on('click', function () {
+                $(location).attr('href', 'zxkf.html');
+            })
+        })
     </script>
 </body>
 
